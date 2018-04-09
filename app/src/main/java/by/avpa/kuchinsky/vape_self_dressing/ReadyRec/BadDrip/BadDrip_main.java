@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.GridLayout;
 
 import by.avpa.kuchinsky.vape_self_dressing.R;
-import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.VW.Cinnamon_Roll;
+
 
 public class BadDrip_main extends AppCompatActivity {
 
@@ -34,13 +34,65 @@ public class BadDrip_main extends AppCompatActivity {
                 public void onClick(View view) {
                     if (finalI==0){
 
-                        Intent intent = new Intent(BadDrip_main.this, Cinnamon_Roll.class);
+                        Intent intent = new Intent(BadDrip_main.this, Cereal_Trip.class);
                         startActivity(intent);
 
 
                     }else if (finalI==1){
 
-                        Intent intent = new Intent(BadDrip_main.this, Cinnamon_Roll.class);
+                        Intent intent = new Intent(BadDrip_main.this, Cereal_Trip.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==2){
+
+                        Intent intent = new Intent(BadDrip_main.this, Ugly_Butter.class);
+                        startActivity(intent);
+
+
+                    }else if (finalI==3){
+
+                        Intent intent = new Intent(BadDrip_main.this, Ugly_Butter.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==4){
+
+                        Intent intent = new Intent(BadDrip_main.this, Bad_Blood.class);
+                        startActivity(intent);
+
+
+                    }else if (finalI==5){
+
+                        Intent intent = new Intent(BadDrip_main.this, Bad_Blood.class);
+                        startActivity(intent);
+
+
+                    }
+                    else  if (finalI==6){
+
+                        Intent intent = new Intent(BadDrip_main.this, Cereal_Killer.class);
+                        startActivity(intent);
+
+
+                    }else if (finalI==7){
+
+                        Intent intent = new Intent(BadDrip_main.this, Cereal_Killer.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==8){
+
+                        Intent intent = new Intent(BadDrip_main.this, Gnarly_Sause.class);
+                        startActivity(intent);
+
+
+                    }else if (finalI==9){
+
+                        Intent intent = new Intent(BadDrip_main.this, Gnarly_Sause.class);
                         startActivity(intent);
 
 

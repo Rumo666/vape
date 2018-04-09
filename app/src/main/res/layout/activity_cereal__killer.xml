@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.ReadyRec.BadDrip.Cereal_Killer">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/bd4" />
+
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:padding="5dp"
+            android:text="Cereal Killer - имеет очень красивый золотой оттенок и выраженный сахарно-конфетный вкус. Жидкость относится к десертным видам заправок для сигарет и отлично подойдет тем, кому не хватает сладости в жизни. Эта жидкость подарит сладкий вкус в изобилии, даже в избытке. Выкурив сигарету с такой заправкой, можно легко вообразить себя находящимся в кондитерской где-нибудь в Вене, в обществе роскошных сладостей и тортов, которыми так славятся австрийские кондитеры." />
+
+        <ImageView
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/bd4_rec" />
+
+
+    </RelativeLayout>
+

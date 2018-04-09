@@ -70,8 +70,32 @@
             android:parentActivityName=".ReadyRec.VapeWild"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
-        <activity android:name=".ReadyRec.BadDrip.BadDrip_main"
+        <activity
+            android:name=".ReadyRec.BadDrip.BadDrip_main"
             android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BadDrip.Cereal_Trip"
+            android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BadDrip.Ugly_Butter"
+            android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BadDrip.Bad_Blood"
+            android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".ReadyRec.BadDrip.Cereal_Killer"
+            android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+        <activity android:name=".ReadyRec.BadDrip.Gnarly_Sause"
+            android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
     </application>
