@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Vape самозамес</string>
+    <string name="tara">Выберите тару:</string>
+    <string name="vg">Cодержание VG=</string>
+    <string name="erR">Требуемое содержание никотина не должно превышать содержание никотина в основе!</string>
+    <string name="nicotineInBasic">Содержание никотина в основе:</string>
+    <string name="trSost"><ul> <li><i>Пропиленгликоль (PG)</i> 50%</li></ul></string>
+    <string name="trSost1"><ul> <li><i>Растительный глицерин (VG) </i> 40%</li></ul></string>
+    <string name="trSost2"><ul> <li><i>Дистиллированная вода </i> 5-10%</li></ul></string>
+    <string name="trSost3"><ul> <li><i>Ароматизатор по вашему вкусу </i> 1-3%</li></ul></string>
+
+    <string name="mild1"><ul> <li><i>Растительный глицерин (VG) </i> 80%</li></ul></string>
+    <string name="mild2"><ul> <li><i>Дистиллированная вода </i> 10-20%</li></ul></string>
+    <string name="mild3"><ul> <li><i>Ароматизатор по вашему вкусу </i> 1-5%</li></ul></string>
+
+    <string name="strong1"><ul> <li><i>Пропиленгликоль (PG) </i> 95%</li></ul></string>
+    <string name="strong2"><ul> <li><i>Дистиллированная вода </i> 5%</li></ul></string>
+    <string name="strong3"><ul> <li><i>Ароматизатор по вашему вкусу </i> 1-5%</li></ul></string>
+    <string name="rec">Рецепт</string>
+    <string name="krepost_base">Крепость в базовой жидкости:</string>
+    <string name="krepost_exit">Желаемая крепость на выходе:</string>
+    <string name="pg">Процент пропиленгликоля (PG):</string>
+    <string name="proc_water">Процент дистиллированной воды</string>
+    <string name="proc_flavor">Процент ароматизатора:</string>
+    <string name="v_liquid">Требуемый объём жидкости на выходе:</string>
+    <string name="ml">Количество капель в ml:</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="vape_wild_tigers_blood"><b>VAPE WILD - Tigers Blood </b>Приятный и интересный ненавязчивый вкус Tigers Blood от VAPE WILD подойдет для тех, кто положительно относится к кокосу и..</string>
+    <string name="vape_wild_circus_bear"><b>VAPE WILD - Circus Bear</b> Эта жидкость обладает таким количеством аромата, что у Вас может появится желание парить её на постоянной основе! VAPE WILD Circuis Bear - это сочная смесь спелого..</string>
+    <string name="vape_wild_american_pie"><b>VAPE WILD - American Pie</b> от VAPE WILD — старомодный яблочный пирог из спелых яблок c хрустящей корочкой и миксом корицы, сахара и всех хороших вещей..</string>
+    <string name="vape_wild_cinnamon_roll"><b>VAPE WILD – Cinnamon Roll</b> - выпечка. Вкус старой доброй булочки с корицей..</string>
+    <string name="bad_drip_farley">Жидкость от «плохих» американских ребят <b>BAD DRIP - Farley`s Gnarly Sause</b> — одна из тех неповторимых жидкостей на каждый день: идеально подобранные пропорции киви, клубники и жвачки. Другую такую вы не найдете.</string>
+    <string name="cereal_killer"><b>Cereal Killer</b> - имеет очень красивый золотой оттенок и выраженный сахарно-конфетный вкус. Жидкость относится к <u>десертным</u> видам заправок..</string>
+    <string name="bad_blood_bad_drip"><b>Bad Blood</b> - это <u>черничный</u> кристалл, окропленный кровью <u>граната</u> и усыпанный волшебной <u>ванильной</u> пылью. Прибыл к нам прямиком из лабораторий Bad Drip.</string>
+    <string name="ugly_butter"><b>Ugly Butter</b> - любимый рецепт дядюшки Фредди, знаменитого своим фирменным жареным тестом, щедро усыпанным сахаром с корицей и залитым сладчайшим банановым пудингом.</string>
+    <string name="cereal_trip"><b>Cereal Trip..</b> Этот вкус еще слаще, чем слезы клоуна в обличье нежной принцессы! Только он сравнится с фруктовой кашкой вашей мамы и затмит вязкость розовой глазури свежеиспеченного пончика!</string>
+</resources>

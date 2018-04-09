@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="by.avpa.kuchinsky.vape_self_dressing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tutorial" />
+        <activity
+            android:name=".LitleTara"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".BigTara"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".Results"
+            android:parentActivityName=".LitleTara"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.AngryVape"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.AV1"
+            android:parentActivityName=".ReadyRec.AngryVape"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.VapeWild"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.VW.Tigers_Blood"
+            android:parentActivityName=".ReadyRec.VapeWild"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.VW.Cinnamon_Roll"
+            android:parentActivityName=".ReadyRec.VapeWild"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.VW.American_Pie"
+            android:parentActivityName=".ReadyRec.VapeWild"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.VW.Circus_Bear"
+            android:parentActivityName=".ReadyRec.VapeWild"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".ReadyRec.BadDrip.BadDrip_main"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
+    </application>
+
+</manifest>

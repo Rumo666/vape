@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03040b</color>
+    <color name="colorPrimaryDark">#04050d</color>
+    <color name="colorAccent">#1f1f43</color>
+    <color name="colW">#c5c5cf</color>
+    <color name="Tabindecator">#8e8ea3</color>
+    <color name="tabindicatorcolor">#6bd3ea</color>
+    <color name="attention">#c60710</color>
+    <color name="good">#06e45f</color>
+    <color name="flb">#031d20</color>
+</resources>

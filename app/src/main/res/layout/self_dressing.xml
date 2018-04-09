@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colW"
+    >
+
+
+
+  <Button
+      android:id="@+id/taraL"
+      android:layout_width="320dp"
+      android:layout_height="wrap_content"
+
+
+      android:background="@drawable/buttonstyle"
+      android:padding="10dp"
+      android:text="Использовать калькулятор для расчета жидкости"
+      android:textColor="@color/colW"
+      android:textSize="16sp" />
+
+  <Button
+      android:id="@+id/bigTara"
+      android:layout_width="320dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/taraL"
+      android:layout_marginBottom="45dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/buttonstyle"
+      android:padding="10dp"
+      android:text="Составы жидкости для электронных сигарет"
+      android:textColor="@color/colW"
+      android:textSize="16sp" />
+
+
+</RelativeLayout>

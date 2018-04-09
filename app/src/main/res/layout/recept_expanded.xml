@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.ReadyRec.AngryVape"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/coverAv"
+        android:layout_width="0dp"
+        android:layout_height="267dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/photoAV"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/coverAv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coverAv"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/av1round" />
+
+    <TextView
+        android:id="@+id/avFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Рецепт ANGRY VAPE - Diego Bull"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/photoAV"
+        app:layout_constraintTop_toBottomOf="@+id/coverAv" />
+
+    <TextView
+        android:id="@+id/avAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="15dp"
+        android:text="Жареный арахис, сладкая карамель и молочный шоколад, ммм… Сникерс и только сникерс! Отличный вкус, насыщенный и приятный. Чувствуется все: нуга, карамель, шоколад, а орешки..."
+        app:layout_constraintBottom_toTopOf="@+id/av_recept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoAV"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <Button
+
+        android:id="@+id/av_recept"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/lightbutton"
+        android:text="Рецепт"
+        android:textColor="@color/colW"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

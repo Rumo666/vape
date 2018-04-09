@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.BigTara">
+
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:paddingTop="-5dp"
+
+
+            >
+
+        <android.support.v7.widget.CardView
+            android:background="@color/colW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            android:paddingTop="-2dp"
+
+
+            >
+
+            <LinearLayout
+                android:background="@color/colW"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="0dp"
+                android:orientation="vertical"
+                android:paddingTop="-1dp">
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+android:background="@color/colorPrimaryDark"
+                    android:layout_margin="0dp"
+                    android:textSize="16sp"
+                    android:text="Состав традиционный:"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:padding="0dp" />
+
+                <TextView
+                    android:padding="2dp"
+                    android:id="@+id/traditionalSostav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trSost"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trSost1"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trSost2"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trSost3"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:paddingTop="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+
+                    android:text="Оптимальное количество пара, вкуса и ощущений."
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_margin="0dp"
+                    android:textSize="16sp"
+                    android:text="Состав мягкий:"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:padding="0dp" />
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mild1"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mild2"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mild3"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:paddingTop="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+
+                    android:text="Более насыщенный пар, слабый тротхит."
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_margin="0dp"
+                    android:textSize="16sp"
+                    android:text="Состав крепкий:"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:padding="0dp" />
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strong1"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strong2"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strong3"  android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:paddingTop="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+
+                    android:text="Мало пара. Сильный тротхит."
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.LitleTara"
+    android:layout_row="2"
+   >
+
+    <TableLayout
+        android:id="@+id/tableL"
+
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvliquidNeed"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:paddingLeft="1dp"
+                android:text="@string/krepost_base"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/krepost_v_bazovoi"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="3"
+                android:paddingLeft="10dp"
+                android:text="6"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvnikotineNeed"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="1dp"
+                android:text="@string/krepost_exit"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/krepost_na_vihode"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="2"
+
+                android:text="3"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:paddingLeft="1dp"
+                android:id="@+id/tvpgNeed"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:text="@string/pg"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/pgNeed"
+                android:textAlignment="center"
+                android:text="50"
+                android:layout_height="wrap_content"
+                android:layout_width="45dp"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:paddingLeft="1dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:text="Процент пищевого глицерина (VG):"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/vgNeed"
+                android:textAlignment="center"
+                android:text="45"
+                android:layout_height="wrap_content"
+                android:layout_width="45dp"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number" />
+
+
+        </TableRow>
+
+
+
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" >-->
+
+            <!--<TextView-->
+                <!--android:paddingLeft="1dp"-->
+                <!--android:id="@+id/tvvgNeed"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:ems="10"-->
+                <!--android:text="Требуемое содержание VG:"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/vgNeed"-->
+                <!--android:layout_width="45dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:cursorVisible="false"-->
+                <!--android:ems="10"-->
+                <!--android:focusable="auto"-->
+                <!--android:hint=""-->
+                <!--android:longClickable="false"-->
+                <!--android:text="50"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="18sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/t4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="%"-->
+                <!--android:textSize="12sp" />-->
+        <!--</TableRow>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:paddingLeft="1dp"
+                android:id="@+id/textH20"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="@string/proc_water"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <CheckBox
+
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/howMuchWater"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:text="0"
+                android:inputType="number"
+                android:visibility="invisible"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvflavorNeed"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:paddingLeft="1dp"
+                android:text="@string/proc_flavor"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+
+                android:id="@+id/flavorNeed"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:ems="10"
+                android:inputType="number"
+                android:text="5" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvnicotineInBasic"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+
+                android:paddingLeft="1dp"
+                android:text="@string/v_liquid"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+            android:id="@+id/jidkost_na_vihode"
+            android:layout_width="45dp"
+                android:text="100"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:ems="10"
+            android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+
+                android:paddingLeft="1dp"
+                android:text="@string/ml"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+            android:id="@+id/kolitchestvo_kapel"
+            android:layout_width="45dp"
+                android:text="20"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:ems="10"
+            android:inputType="number" />
+
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_below="@+id/tableL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+
+
+
+        <Button
+
+
+            android:layout_centerInParent="true"
+            android:id="@+id/sostav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/calculate"
+            android:textColor="@color/colW"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

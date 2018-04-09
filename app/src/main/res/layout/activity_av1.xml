@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.ReadyRec.AV1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/av1" />
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:padding="5dp"
+        android:text="  Жареный арахис, сладкая карамель и молочный шоколад, ммм… Сникерс и только сникерс! Отличный вкус, насыщенный и приятный. Чувствуется все: нуга, карамель, шоколад, а орешки прямо-таки остаются на послевкусии — идеально.
+  Советуем запастись аромками для самозамеса клона по этому рецепту: вам будет хотеться сделать ещё и ещё. Наши рецепты позволят вам своими руками превратить ароматизаторы и основу для электронных сигарет в очень вкусную жидкость для электронных сигарет." />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:padding="2dp"
+        app:srcCompat="@drawable/av1_rec" />
+</RelativeLayout>
