@@ -13,6 +13,10 @@ import android.widget.ListView;
 
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.AngryVape;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.BadDrip.BadDrip_main;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Banzai.Banzai_main;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.BoardWalk.BoardWalkMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Boiler.BoilerMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Bombies.Bombies_main;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.VapeWild;
 
 /**
@@ -88,7 +92,62 @@ public class FragmentReadyReciepes extends Fragment {
 
 
                     }
+                    else if (finalI==6){
 
+                        Intent intent = new Intent(getContext(), Banzai_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==7){
+
+                        Intent intent = new Intent(getContext(), Banzai_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==8){
+
+                        Intent intent = new Intent(getContext(), Bombies_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==9){
+
+                        Intent intent = new Intent(getContext(), Bombies_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==10){
+
+                        Intent intent = new Intent(getContext(), BoardWalkMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==11){
+
+                        Intent intent = new Intent(getContext(), BoardWalkMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==12){
+
+                        Intent intent = new Intent(getContext(), BoilerMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==13){
+
+                        Intent intent = new Intent(getContext(), BoilerMain.class);
+                        startActivity(intent);
+
+
+                    }
 
                 }
             });

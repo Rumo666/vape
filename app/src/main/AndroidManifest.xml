@@ -90,12 +90,52 @@
             android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
-        <activity android:name=".ReadyRec.BadDrip.Cereal_Killer"
+        <activity
+            android:name=".ReadyRec.BadDrip.Cereal_Killer"
             android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
-        <activity android:name=".ReadyRec.BadDrip.Gnarly_Sause"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BadDrip.Gnarly_Sause"
             android:parentActivityName=".ReadyRec.BadDrip.BadDrip_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Banzai.Banzai_main"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Banzai.Banzai_milk"
+            android:parentActivityName=".ReadyRec.Banzai.Banzai_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Bombies.Nana_Cream"
+            android:parentActivityName=".ReadyRec.Bombies.Bombies_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Bombies.Bombies_main"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BoardWalk.BoardWalkMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.BoardWalk.BombShell"
+            android:parentActivityName=".ReadyRec.BoardWalk.BoardWalkMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".ReadyRec.Boiler.BoilerMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+        <activity android:name=".ReadyRec.Boiler.Anvil"
+            android:parentActivityName=".ReadyRec.Boiler.BoilerMain"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
     </application>
