@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="by.avpa.kuchinsky.vape_self_dressing.ReadyRec.CUTTWOOD.UnicornMilk">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/cut1" />
+
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:padding="5dp"
+            android:text="Знакомая и полюбившаяся многим классическая и беспроигрышная комбинация четырёх различных кремовых вкусов и приятное послевкусие от свежей клубники. С одним существенным дополнением — как заверяет команда CUTTWOOD, — основу жидкости привозят прямо с фермы единорогов в Лос-Анжелесе."></TextView>
+        <ImageView
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/cut1_rec" />
+
+
+    </RelativeLayout>
+
+
+
+

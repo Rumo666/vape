@@ -130,14 +130,94 @@
             android:parentActivityName=".ReadyRec.BoardWalk.BoardWalkMain"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
-        <activity android:name=".ReadyRec.Boiler.BoilerMain"
+        <activity
+            android:name=".ReadyRec.Boiler.BoilerMain"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
-        <activity android:name=".ReadyRec.Boiler.Anvil"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Boiler.Anvil"
             android:parentActivityName=".ReadyRec.Boiler.BoilerMain"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Breakfast.Breakfast_main"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Breakfast.Crunch"
+            android:parentActivityName=".ReadyRec.Breakfast.Breakfast_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CosmigFog.CosmicFogMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CosmigFog.ColaGummy"
+            android:parentActivityName=".ReadyRec.CosmigFog.CosmicFogMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CosmigFog.CosmicFogKryptonite"
+            android:parentActivityName=".ReadyRec.CosmigFog.CosmicFogMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Cottos.CottosMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.Cottos.CottosBourbon"
+            android:parentActivityName=".ReadyRec.Cottos.CottosMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CUTTWOOD.CuttwoodMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CUTTWOOD.UnicornMilk"
+            android:parentActivityName=".ReadyRec.CUTTWOOD.CuttwoodMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CUTTWOOD.SugarDrizzle"
+            android:parentActivityName=".ReadyRec.CUTTWOOD.CuttwoodMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CUTTWOOD.MegaMelons"
+            android:parentActivityName=".ReadyRec.CUTTWOOD.CuttwoodMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.CUTTWOOD.BossReserve"
+            android:parentActivityName=".ReadyRec.CUTTWOOD.CuttwoodMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.DIGBYS.DigBysMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ReadyRec.DIGBYS.DrJekyll"
+            android:parentActivityName=".ReadyRec.DIGBYS.DigBysMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".ReadyRec.PINUP.PinupMain"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".ReadyRec.PINUP.Lana"
+            android:parentActivityName=".ReadyRec.PINUP.PinupMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" ></activity>
     </application>
 
 </manifest>

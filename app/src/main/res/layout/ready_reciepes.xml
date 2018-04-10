@@ -33,7 +33,7 @@
          android:layout_marginRight="2dp"
          android:background="@color/colW"
          android:layout_width="match_parent"
-         android:layout_height="1659dp"
+         android:layout_height="1688dp"
          android:layout_weight="9"
          android:alignmentMode="alignMargins"
          android:columnCount="2"
@@ -163,7 +163,7 @@
                  <TextView
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
-                     android:layout_marginLeft="2dp"
+                     android:layout_marginLeft="4dp"
                      android:text="Если вы думаете, что в США вообще все парят исключительно тот самый «американский премиум» в стекле, то сильно ошибаетесь. Уже давным-давно существует множество компаний..."
                      android:textColor="@color/colorAccent" />
              </LinearLayout>
@@ -228,7 +228,7 @@
 
 
                  <TextView
-
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Жидкость от самых «плохих» парней Нью-Йорка - это BAD DRIP. Хотите попробовать создать аналог - мы вам поможем."
@@ -288,6 +288,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Ассортимент BANZAI VAPORS в настоящее время состоит из четырех линий: Banzai Original, True, DYNASTY, High VG."
@@ -352,7 +353,7 @@
 
 
                  <TextView
-
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="BOMBIES —  молодая и амбициозная компания из Калифорнии (США). Калифорния стала не только родиной Кремниевой долины... "
@@ -412,6 +413,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="BOARDWALK VAPOR - компания с солнечного побережья Калифорнии. Ребята позиционируют свои жидкости, как жидкости наполненные пляжной атмосферой..."
@@ -476,7 +478,7 @@
 
 
                  <TextView
-
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="BOILERMAKER VAPOR - бренд американской компании VVV Industries. Ребята сделали отличную линейку жидкостей для настоящих работяг"
@@ -536,6 +538,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="BREAKFAST AT TELEOS​ - линейка жидкостей американской компании TELEOS JUICE. Компания утверждает, что часто экспериментирует с редкими и необычными..."
@@ -601,7 +604,7 @@
 
 
                  <TextView
-
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="COSMIC FOG используют основные компоненты в соотношении 50 на 50."
@@ -661,6 +664,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Именно на основе южных традиций Joe Cotto была создана уникальная технология настаивания жидкости в дубовых бочках на протяжении 2-х недель."
@@ -725,7 +729,7 @@
 
 
                  <TextView
-
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Рецепты жидкостей для электронных сигарет одного из самых старых и популярных производителей. Неповторимые вкусы ждут вас."
@@ -785,6 +789,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Изначально компания DIGBYS представляла собой группу единомышленников, которые ценили парение и поддерживали его развитие, но позже им стало недостаточно вкусов.."
@@ -844,6 +849,7 @@
 
 
                  <TextView
+                     android:layout_marginLeft="4dp"
                      android:layout_width="match_parent"
                      android:layout_height="match_parent"
                      android:text="Если бы во времена Мерилин Монро уже было бы изобретено электронное парение, то она, скорее всего, пользовалась бы жидкостью от PINUP VAPORS.."

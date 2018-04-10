@@ -17,6 +17,12 @@ import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Banzai.Banzai_main;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.BoardWalk.BoardWalkMain;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Boiler.BoilerMain;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Bombies.Bombies_main;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Breakfast.Breakfast_main;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.CUTTWOOD.CuttwoodMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.CosmigFog.CosmicFogMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.Cottos.CottosMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.DIGBYS.DigBysMain;
+import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.PINUP.PinupMain;
 import by.avpa.kuchinsky.vape_self_dressing.ReadyRec.VapeWild;
 
 /**
@@ -144,6 +150,90 @@ public class FragmentReadyReciepes extends Fragment {
                     else if (finalI==13){
 
                         Intent intent = new Intent(getContext(), BoilerMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==14){
+
+                        Intent intent = new Intent(getContext(), Breakfast_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==15){
+
+                        Intent intent = new Intent(getContext(), Breakfast_main.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==16){
+
+                        Intent intent = new Intent(getContext(), CosmicFogMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==17){
+
+                        Intent intent = new Intent(getContext(), CosmicFogMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==18){
+
+                        Intent intent = new Intent(getContext(), CottosMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==19){
+
+                        Intent intent = new Intent(getContext(), CottosMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==20){
+
+                        Intent intent = new Intent(getContext(), CuttwoodMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==21){
+
+                        Intent intent = new Intent(getContext(), CuttwoodMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==22){
+
+                        Intent intent = new Intent(getContext(), DigBysMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==23){
+
+                        Intent intent = new Intent(getContext(), DigBysMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==24){
+
+                        Intent intent = new Intent(getContext(), PinupMain.class);
+                        startActivity(intent);
+
+
+                    }
+                    else if (finalI==25){
+
+                        Intent intent = new Intent(getContext(), PinupMain.class);
                         startActivity(intent);
 
 
