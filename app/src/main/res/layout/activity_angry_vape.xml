@@ -71,7 +71,7 @@ android:id="@+id/angryVape"
         android:id="@+id/av_recept"
         android:layout_width="142dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
+        android:layout_marginBottom="216dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/lightbutton"
@@ -79,6 +79,8 @@ android:id="@+id/angryVape"
         android:textColor="@color/colW"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>

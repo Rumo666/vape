@@ -31,7 +31,7 @@
                 android:layout_marginRight="2dp"
 
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="420dp"
                 android:layout_weight="9"
                 android:alignmentMode="alignMargins"
                 android:columnCount="2"
@@ -156,7 +156,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="2dp"
                             android:paddingLeft="2dp"
-                            android:text="Жидкость от COSMIG FOG - Kryptonite единственная слабость для наших внутренних Суперменов! Тот самый вкус, оторваться от которого невозможно даже ради спасения собственной жизни. Мягкий и освежающий аромат спелой дыни, сплетённый со вкусом любимой конфеты создаёт уникальный аромат, который выпарится со скоростью пули.."
+                            android:text="Жидкость от COSMIG FOG - Kryptonite единственная слабость для наших внутренних Суперменов! Тот самый вкус, оторваться от которого невозможно даже ради спасения собственной жизни. Мягкий и освежающий аромат спелой дыни, сплетённый со вкусом.."
                             android:textColor="@color/colorAccent" />
                     </LinearLayout>
 

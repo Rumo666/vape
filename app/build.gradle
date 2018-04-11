@@ -1,14 +1,33 @@
 apply plugin: 'com.android.application'
 
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
 android {
     compileSdkVersion 26
+    signingConfigs {
+        config {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }}
     defaultConfig {
         applicationId "by.avpa.kuchinsky.vape_self_dressing"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
@@ -16,10 +35,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '27.0.3'
+}
+repositories {
+
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-gcm:11.0.0'
+    implementation 'com.google.android.gms:play-services-ads:11.0.0'
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
@@ -27,6 +55,23 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
-    compile 'com.github.msayan:tutorial-view:v1.0.1'
+    implementation 'com.github.msayan:tutorial-view:v1.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    //for Inmobi
+    implementation name: 'adcolony-sdk-3.2.1', ext: 'aar'
+    implementation name: 'mmedia-6.4.0', ext: 'aar'
+    implementation name: 'mobvista_alphab', ext: 'aar'
+    implementation name: 'mobvista_appwall', ext: 'aar'
+    implementation name: 'mobvista_appwallext', ext: 'aar'
+    implementation name: 'mobvista_common', ext: 'aar'
+    implementation name: 'mobvista_interstitial', ext: 'aar'
+    implementation name: 'mobvista_mvdownloads', ext: 'aar'
+    implementation name: 'mobvista_mvjscommon', ext: 'aar'
+    implementation name: 'mobvista_mvnative', ext: 'aar'
+    implementation name: 'mobvista_nativeex', ext: 'aar'
+    implementation name: 'mobvista_offerwall', ext: 'aar'
+    implementation name: 'mobvista_playercommon', ext: 'aar'
+    implementation name: 'mobvista_reward', ext: 'aar'
+    implementation name: 'mobvista_videocommon', ext: 'aar'
+    implementation name: 'mobvista_videofeeds', ext: 'aar'
 }

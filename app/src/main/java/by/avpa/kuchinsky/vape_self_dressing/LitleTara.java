@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -14,6 +15,10 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.appodeal.ads.Appodeal;
+import com.appodeal.ads.BannerCallbacks;
+import com.google.android.gms.ads.MobileAds;
 
 public class LitleTara extends AppCompatActivity {
     Button sostav;
@@ -29,6 +34,35 @@ public class LitleTara extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_litle_tara);
+        MobileAds.initialize(this, "ca-app-pub-5519130679591776~2247482211");
+
+        String appKey = "e4f3b8a7d41076075e7188d8979941e7b44e9693739f8b8d";
+        Appodeal.initialize(this, appKey, Appodeal.INTERSTITIAL | Appodeal.BANNER);
+       Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
+        Appodeal.setBannerCallbacks(new BannerCallbacks() {
+            @Override
+            public void onBannerLoaded(int height, boolean isPrecache) {
+
+                if(Appodeal.isLoaded(Appodeal.BANNER)){
+                Appodeal.show(LitleTara.this, Appodeal.BANNER_BOTTOM);}
+            }
+            @Override
+            public void onBannerFailedToLoad() {
+                Appodeal.show(LitleTara.this, Appodeal.BANNER_BOTTOM);
+
+            }
+            @Override
+            public void onBannerShown() {
+                Appodeal.show(LitleTara.this, Appodeal.BANNER_BOTTOM);
+            }
+            @Override
+            public void onBannerClicked() {
+                Appodeal.hide(LitleTara.this, Appodeal.BANNER);
+            }
+        });
+
+
         getSupportActionBar().setTitle("Для мелкой тары");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

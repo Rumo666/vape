@@ -31,7 +31,7 @@
                 android:layout_marginRight="2dp"
 
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="210dp"
                 android:layout_weight="9"
                 android:alignmentMode="alignMargins"
                 android:columnCount="2"
@@ -96,7 +96,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="2dp"
                             android:paddingLeft="2dp"
-                            android:text="Crunch - это тонкие нотки зефира сопровождающие хрустящие хлопья Crunch - это горсть ароматных ягод в молоке на вдохе и  замечательное сливочное ощущение во рту на выдохе. Это все BREAKFAST AT TELEOS​.."
+                            android:text="Crunch - это тонкие нотки зефира сопровождающие хрустящие хлопья Crunch - это горсть ароматных ягод в молоке на вдохе и  замечательное сливочное ощущение во рту на выдохе. Это все BREAKFAST AT TELEOS​"
                             android:textColor="@color/colorAccent" />
                     </LinearLayout>
 
